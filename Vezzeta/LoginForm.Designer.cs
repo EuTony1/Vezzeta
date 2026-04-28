@@ -40,12 +40,14 @@
             // lblUsername
             // 
             this.lblUsername.AutoSize = true;
-            this.lblUsername.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.lblUsername.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.lblUsername.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.lblUsername.Location = new System.Drawing.Point(50, 120);
             this.lblUsername.Name = "lblUsername";
-            this.lblUsername.Size = new System.Drawing.Size(74, 19);
+            this.lblUsername.Size = new System.Drawing.Size(80, 19);
             this.lblUsername.TabIndex = 1;
             this.lblUsername.Text = "Username:";
+            this.lblUsername.Click += new System.EventHandler(this.lblUsername_Click);
             // 
             // txtUsername
             // 
@@ -58,10 +60,11 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.lblPassword.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
+            this.lblPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.lblPassword.Location = new System.Drawing.Point(50, 200);
             this.lblPassword.Name = "lblPassword";
-            this.lblPassword.Size = new System.Drawing.Size(70, 19);
+            this.lblPassword.Size = new System.Drawing.Size(77, 19);
             this.lblPassword.TabIndex = 3;
             this.lblPassword.Text = "Password:";
             // 

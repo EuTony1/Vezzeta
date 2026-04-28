@@ -17,6 +17,7 @@
 
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.lblTitle = new System.Windows.Forms.Label();
             this.grpInsert = new System.Windows.Forms.GroupBox();
             this.btnAddPatient = new System.Windows.Forms.Button();
@@ -40,7 +41,7 @@
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
-            this.lblTitle.Location = new System.Drawing.Point(20, 20);
+            this.lblTitle.Location = new System.Drawing.Point(197, 18);
             this.lblTitle.Name = "lblTitle";
             this.lblTitle.Size = new System.Drawing.Size(358, 30);
             this.lblTitle.TabIndex = 4;
@@ -156,7 +157,7 @@
             // 
             // dataGridView1
             // 
-            this.dataGridView1.Location = new System.Drawing.Point(25, 237);
+            this.dataGridView1.Location = new System.Drawing.Point(25, 245);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(700, 253);
             this.dataGridView1.TabIndex = 0;
@@ -170,9 +171,10 @@
             this.Controls.Add(this.grpSelectOne);
             this.Controls.Add(this.grpInsert);
             this.Controls.Add(this.lblTitle);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form 1 - Connected Mode";
+            this.Text = " Connected Mode";
             this.grpInsert.ResumeLayout(false);
             this.grpInsert.PerformLayout();
             this.grpSelectOne.ResumeLayout(false);
