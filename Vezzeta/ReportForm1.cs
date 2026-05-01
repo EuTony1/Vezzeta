@@ -18,7 +18,7 @@ namespace Vezzeta
             rep2 = new ReportDocument();
 
             
-            rep2.Load(@"CrystalReport1.rpt");
+            rep2.Load(@"CrystalReport2.rpt");
 
             crystalReportViewer1.ReportSource = rep2;
         }
