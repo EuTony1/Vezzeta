@@ -111,6 +111,7 @@
             this.btnFindDoctor.TabIndex = 0;
             this.btnFindDoctor.Text = "Find (Stored Proc)";
             this.btnFindDoctor.UseVisualStyleBackColor = false;
+            this.btnFindDoctor.Click += new System.EventHandler(this.btnFindDoctor_Click_1);
             // 
             // txtDoctorId
             // 

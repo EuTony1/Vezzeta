@@ -28,15 +28,19 @@ namespace Vezzeta
 
         private void report1MenuItem_Click(object sender, EventArgs e)
         {
-           
-            MessageBox.Show("Report 1 (Grouped & Summarized) will open here.");
+            ReportForm1 myReport = new ReportForm1();
+
+            myReport.Show();
+          
         }
 
         
         private void report2MenuItem_Click(object sender, EventArgs e)
         {
+            ReportForm2 myReport = new ReportForm2();
 
-            MessageBox.Show("Report 2 (Parameters) will open here.");
+            myReport.Show();
+
         }
 
         private void MainForm_FormClosed(object sender, FormClosedEventArgs e)

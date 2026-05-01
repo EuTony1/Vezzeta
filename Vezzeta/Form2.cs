@@ -23,7 +23,7 @@ namespace Vezzeta
         
         private void btnLoadData_Click(object sender, EventArgs e)
         {
-            string cmdstr = "SELECT * FROM Appointments";
+            string cmdstr = "SELECT * FROM Appointments where PATIENT_ID=:id";
 
             adapter = new OracleDataAdapter(cmdstr, ordb);
             adapter.SelectCommand.Parameters.Add("id", txtFilterValue.Text);

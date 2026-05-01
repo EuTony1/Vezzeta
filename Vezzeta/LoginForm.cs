@@ -7,7 +7,7 @@ namespace Vezzeta
     {
         public LoginForm()
         {
-            // This tells the form to read the Designer.cs file to build the UI
+            
             InitializeComponent();
         }
 

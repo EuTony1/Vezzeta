@@ -92,5 +92,10 @@ namespace Vezzeta
             dataGridView1.DataSource = dt;
             dr.Close();
         }
+
+        private void btnFindDoctor_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

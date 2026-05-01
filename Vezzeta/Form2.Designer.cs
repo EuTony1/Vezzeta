@@ -25,9 +25,7 @@
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
-            // 
-            // lblTitle
-            // 
+      
             this.lblTitle.AutoSize = true;
             this.lblTitle.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold);
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
@@ -36,9 +34,7 @@
             this.lblTitle.Size = new System.Drawing.Size(479, 30);
             this.lblTitle.TabIndex = 4;
             this.lblTitle.Text = "Disconnected Mode (Manage Appointments)";
-            // 
-            // txtFilterValue
-            // 
+         
             this.txtFilterValue.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.txtFilterValue.Font = new System.Drawing.Font("Segoe UI", 11F);
             this.txtFilterValue.Location = new System.Drawing.Point(25, 70);
@@ -46,9 +42,7 @@
             this.txtFilterValue.Size = new System.Drawing.Size(250, 27);
             this.txtFilterValue.TabIndex = 3;
             this.txtFilterValue.Text = "Enter Patient ID to Filter";
-            // 
-            // btnLoadData
-            // 
+         
             this.btnLoadData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnLoadData.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold);
             this.btnLoadData.ForeColor = System.Drawing.Color.White;
@@ -59,9 +53,7 @@
             this.btnLoadData.Text = "Load Data";
             this.btnLoadData.UseVisualStyleBackColor = false;
             this.btnLoadData.Click += new System.EventHandler(this.btnLoadData_Click_1);
-            // 
-            // btnSaveChanges
-            // 
+           
             this.btnSaveChanges.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(102)))), ((int)(((byte)(204)))));
             this.btnSaveChanges.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold);
             this.btnSaveChanges.ForeColor = System.Drawing.Color.White;
@@ -71,16 +63,12 @@
             this.btnSaveChanges.TabIndex = 0;
             this.btnSaveChanges.Text = "SAVE CHANGES TO DATABASE";
             this.btnSaveChanges.UseVisualStyleBackColor = false;
-            // 
-            // dataGridView2
-            // 
+          
             this.dataGridView2.Location = new System.Drawing.Point(25, 120);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.Size = new System.Drawing.Size(635, 280);
             this.dataGridView2.TabIndex = 1;
-            // 
-            // Form2
-            // 
+           
             this.BackColor = System.Drawing.Color.AliceBlue;
             this.ClientSize = new System.Drawing.Size(684, 500);
             this.Controls.Add(this.btnSaveChanges);
